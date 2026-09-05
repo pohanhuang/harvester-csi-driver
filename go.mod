@@ -1,6 +1,6 @@
 module github.com/harvester/harvester-csi-driver
 
-go 1.26
+go 1.26.0
 
 replace (
 	github.com/google/gnostic-models => github.com/google/gnostic-models v0.6.9
@@ -41,8 +41,8 @@ require (
 	github.com/rancher/wrangler/v3 v3.2.4
 	github.com/sirupsen/logrus v1.9.4
 	github.com/urfave/cli v1.22.17
-	golang.org/x/mod v0.32.0
-	golang.org/x/sys v0.40.0
+	golang.org/x/mod v0.38.0
+	golang.org/x/sys v0.47.0
 	google.golang.org/grpc v1.79.3
 	k8s.io/api v0.34.1
 	k8s.io/apimachinery v0.34.1
@@ -74,7 +74,7 @@ require (
 	go.uber.org/mock v0.5.2 // indirect
 	go.yaml.in/yaml/v2 v2.4.3 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/net v0.49.0 // indirect
+	golang.org/x/net v0.57.0 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
 )
 
@@ -154,12 +154,12 @@ require (
 	go.opentelemetry.io/otel v1.41.0 // indirect
 	go.opentelemetry.io/otel/trace v1.41.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/crypto v0.47.0 // indirect
+	golang.org/x/crypto v0.56.0 // indirect
 	golang.org/x/exp v0.0.0-20250911091902-df9299821621 // indirect
 	golang.org/x/oauth2 v0.34.0 // indirect
-	golang.org/x/sync v0.19.0 // indirect
-	golang.org/x/term v0.39.0 // indirect
-	golang.org/x/text v0.33.0 // indirect
+	golang.org/x/sync v0.22.0 // indirect
+	golang.org/x/term v0.45.0 // indirect
+	golang.org/x/text v0.41.0 // indirect
 	golang.org/x/time v0.14.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.5.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20251202230838-ff82c1b0f217 // indirect
